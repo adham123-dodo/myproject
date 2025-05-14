@@ -4,10 +4,8 @@ h1{
     font-size: 30px ;
     font-weight: 600;
 }
-h2{
-    color: red;
-    background-color: rgb(145, 11, 140);
-}
-h3{
-    background-color: green;
+p{
+    background-color:aquamarine ;
+    color: indigo;
+    font-size: 20px;
 }

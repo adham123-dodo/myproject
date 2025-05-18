@@ -14,9 +14,17 @@ h2{
     color: hotpink;
     background-color:darkslategrey;
 }
+<<<<<<< HEAD
 .class{
     color: rgb(130, 0, 95);
     background-color: #000000;
     font-size: 80px ;
     font-family: 900;
+=======
+h3{
+    background-color: hsl(190, 74%, 28%);
+    color:rgb(130, 0, 95) ;
+    font-weight: 900;
+    font-size: 100px;
+>>>>>>> version
 }

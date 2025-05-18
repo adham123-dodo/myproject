@@ -14,3 +14,9 @@ h2{
     color: hotpink;
     background-color:darkslategrey;
 }
+h3{
+    background-color: hsl(190, 74%, 28%);
+    color:rgb(130, 0, 95) ;
+    font-weight: 900;
+    font-size: 100px;
+}

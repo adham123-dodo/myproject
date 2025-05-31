@@ -1,18 +1,16 @@
 // script.js
+// مثال على ربط جافاسكريبت بصفحة تسجيل الدخول (login.html) وملف CSS خارجي
 
-// Simple login form functionality
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('loginForm');
+    const form = document.querySelector('form');
     if (form) {
         form.addEventListener('submit', function (e) {
             e.preventDefault();
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
-
-            // Simple validation (replace with real authentication)
-            if (username === 'admin' && password === 'password') {
+            // مثال: تحقق بسيط (يمكنك تعديله حسب الحاجة)
+            if (username === 'admin' && password === '1234') {
                 alert('تم تسجيل الدخول بنجاح!');
-                // Redirect or perform other actions here
             } else {
                 alert('اسم المستخدم أو كلمة المرور غير صحيحة');
             }
